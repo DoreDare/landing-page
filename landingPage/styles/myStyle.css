@@ -1,0 +1,128 @@
+﻿@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap');
+
+body {
+    direction: rtl;
+    background-image: url("../images/DJI_0026.JPG");
+    background-size: 1900px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-repeat:no-repeat;
+    background-position:top center;
+   
+}
+
+#container {
+    width:960px;
+    margin: 0 auto;
+    position:relative;
+    bottom:1030px;
+}
+
+/*יוצר רקע שקוף*/
+#backgroundOpacity {
+    width: 960px;
+    margin: 0 auto;
+    background-color: wheat;
+    opacity: 0.8;
+    height: 1040px;
+    
+}
+
+#logo {
+    margin-right:38%;
+}
+#line {
+    background-color: black;
+    width: 960px;
+    height: 30px;
+}
+header h1 {
+    position: relative;
+    right: 264px;
+    font-size: 35px;
+}
+
+header h2 {
+    position: relative;
+    right: 287px;
+    font-size:24px;
+}
+
+/*section placements*/
+section {
+    width: 450px;
+}
+
+#formSide {
+    position: absolute;
+    right: 510px;
+    bottom: 167px;
+}
+/*end of section placements*/
+
+
+/*text section*/
+
+#comeAboard {
+    margin-right: 10px;
+}
+
+#comeAboard h2 {
+margin-right: 33px;
+}
+
+
+/*end of text section*/
+
+/*attributes section*/
+#attributes {
+    position:relative;
+    bottom: 15px;
+    margin-right:10px;
+}
+
+    #attributes h3 {
+        position: relative;
+        top: 15px;
+    }
+/*end of attributes section*/
+
+#borderLine {
+    border: 2px solid black;
+    position: absolute;
+    right: 480px;
+    top: 339px;
+    height: 438px;
+}
+
+/*form section*/
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type ='text'], input[type ='email'], select {
+    display: block;
+    margin-bottom: 15px;
+}
+#feedback {
+    position:absolute;
+}
+/*end of form section*/
+
+/*more info section*/
+
+#linksSection {
+    position:relative;
+    top:30px;
+}
+#linksSection h3 {
+    margin-right: 120px;
+}
+ .links {
+     display:inline-block;
+     margin-right: 30px;
+     position:relative;
+     right: 363px;
+ }
+
+/*end of more info section*/
